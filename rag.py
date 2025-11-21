@@ -30,20 +30,20 @@ def format_context(docs):
     return "\n\n---\n\n".join(parts)
 
 def solve_question(query, retriever, llm):
-    docs = retriever.invoke(query)        # <- ganti ke invoke
+    docs = retriever.invoke(query)
     context = format_context(docs)
-    prompt = ChatPromptTemplate.from_messages([
+    messages = [
         ("system", SOLVE_SYS),
         ("user", f"[SOAL]: {query}\n\n[KONTEKS]:\n{context}")
-    ])
-    return llm.invoke(prompt.format_messages()).content, docs
+    ]
+    return llm.invoke(messages).content, docs
 
 def generate_item(topic_query, retriever, llm):
-    docs = retriever.invoke(topic_query)  # <- ganti ke invoke
+    docs = retriever.invoke(topic_query)
     context = format_context(docs)
-    prompt = ChatPromptTemplate.from_messages([
+    messages = [
         ("system", GEN_SYS),
         ("user", f"Topik: {topic_query}\n\n[KONTEKS]:\n{context}")
-    ])
-    return llm.invoke(prompt.format_messages()).content, docs
+    ]
+    return llm.invoke(messages).content, docs
 
