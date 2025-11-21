@@ -126,41 +126,43 @@ The web interface has two main features:
 
 **Example input:**
 ```
-35. Peserta wisata yang dapat duduk di sebelah pengemudi adalah
-A. Lisa
-B. Jono
-C. Roni
-D. Susi
-E. Vina
+Penonton dapat memperoleh informasi pembelian karcis melalui poster atau
+internet. Hari ini layanan internet tidak dapat diakses. Hari ini poster
+belum ditempel.
+A. Penonton dapat memperoleh informasi pembelian karcis
+B. Penonton tidak dapat memperoleh informasi pembelian karcis
+C. Penonton tidak dapat membeli karcis
+D. Penonton tidak memerlukan informasi pembelian karcis
+E. Penonton dapat memperoleh informasi selain pembelian karcis
 ```
 
 **Example output:**
-```**Jawaban**
-1. Inti Soal
-Peserta wisata yang dapat duduk di sebelah pengemudi adalah salah satu dari pilihan yang diberikan.
+```
+Jawaban
+
+1. Inti Soal: Penonton tidak dapat memperoleh informasi pembelian karcis karena layanan internet tidak dapat diakses dan poster belum ditempel.
 
 2. Langkah Penyelesaian
-- Identifikasi siapa yang bisa menjadi pengemudi.
-- Mengetahui bahwa salah satu di antara Roni dan Susi harus duduk sebagai pengemudi.
-- Menentukan siapa yang dapat duduk di sebelah pengemudi, yang merupakan kursi yang hanya bisa diisi oleh peserta yang tidak menjadi pengemudi.
+- Identifikasi sumber informasi yang tersedia untuk pembelian karcis.
+- Evaluasi ketersediaan sumber informasi tersebut.
+- Tentukan kesimpulan berdasarkan ketersediaan informasi.
 
 3. Perhitungan/Alasan
-- Jika Roni menjadi pengemudi, maka Susi tidak bisa duduk di sebelah pengemudi, sehingga peserta yang bisa duduk di sebelah pengemudi adalah Lisa, Jono, atau Vina.
-- Jika Susi menjadi pengemudi, maka Roni tidak bisa duduk di sebelah pengemudi, sehingga peserta yang bisa duduk di sebelah pengemudi adalah Lisa, Jono, atau Vina.
-- Dengan demikian, baik Roni maupun Susi sebagai pengemudi tidak dapat duduk di sebelah pengemudi.
+- Sumber informasi pembelian karcis adalah poster dan internet.
+- Hari ini, internet tidak dapat diakses (tidak tersedia).
+- Hari ini, poster belum ditempel (tidak tersedia).
+- Dengan kedua sumber informasi tidak tersedia, penonton tidak dapat memperoleh informasi pembelian karcis.
 
-4. Jawaban Akhir
-Peserta wisata yang dapat duduk di sebelah pengemudi adalah A. Lisa, B. Jono, atau E. Vina. Namun, karena pilihan yang tepat tidak ada dalam opsi, maka jawaban yang paling tepat adalah C. Roni, jika diasumsikan Roni tidak menjadi pengemudi.
+4. Jawaban Akhir: B. Penonton tidak dapat memperoleh informasi pembelian karcis.
 
-5. Referensi (source & halaman dari konteks)
-[Soal_SBMPTN_SAINTEK.pdf p.8]
+5. Referensi: [Soal_SBMPTN_SAINTEK.pdf p.5]
 
 Sumber yang dipakai
-- Soal_SBMPTN_SAINTEK.pdf (hal. 8)
-- Soal_SBMPTN_SAINTEK.pdf (hal. 8)
-- Soal_SBMPTN_SAINTEK.pdf (hal. 7)
-- Soal_SBMPTN_SAINTEK.pdf (hal. 7)
-- Soal_SBMPTN_SAINTEK.pdf (hal. 7)
+Soal_SBMPTN_SAINTEK.pdf (hal. 5)
+Soal_SBMPTN_SAINTEK.pdf (hal. 5)
+Soal_SBMPTN_SAINTEK.pdf (hal. 16)
+Soal_SBMPTN_SAINTEK.pdf (hal. 16)
+Soal_SBMPTN_SAINTEK.pdf (hal. 5)
 ```
 
 #### Feature 2: "Generate Soal" (Generate Questions)
