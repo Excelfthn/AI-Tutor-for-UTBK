@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\claude-code\\aittutordts\\tests\" 2)",
+      "Bash(nul)",
+      "Bash(dir \"C:\\claude-code\\aittutordts\\data\" 2)",
+      "Bash(dir \"C:\\claude-code\\aittutordts\\vectorstore\" 2)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
