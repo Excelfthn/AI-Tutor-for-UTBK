@@ -135,8 +135,32 @@ E. Vina
 ```
 
 **Example output:**
-```
-<img width="1776" height="847" alt="image" src="https://github.com/user-attachments/assets/9940d84e-4e0a-4717-a501-59da9d6fc6d7" />
+```**Jawaban**
+1. Inti Soal
+Peserta wisata yang dapat duduk di sebelah pengemudi adalah salah satu dari pilihan yang diberikan.
+
+2. Langkah Penyelesaian
+- Identifikasi siapa yang bisa menjadi pengemudi.
+- Mengetahui bahwa salah satu di antara Roni dan Susi harus duduk sebagai pengemudi.
+- Menentukan siapa yang dapat duduk di sebelah pengemudi, yang merupakan kursi yang hanya bisa diisi oleh peserta yang tidak menjadi pengemudi.
+
+3. Perhitungan/Alasan
+- Jika Roni menjadi pengemudi, maka Susi tidak bisa duduk di sebelah pengemudi, sehingga peserta yang bisa duduk di sebelah pengemudi adalah Lisa, Jono, atau Vina.
+- Jika Susi menjadi pengemudi, maka Roni tidak bisa duduk di sebelah pengemudi, sehingga peserta yang bisa duduk di sebelah pengemudi adalah Lisa, Jono, atau Vina.
+- Dengan demikian, baik Roni maupun Susi sebagai pengemudi tidak dapat duduk di sebelah pengemudi.
+
+4. Jawaban Akhir
+Peserta wisata yang dapat duduk di sebelah pengemudi adalah A. Lisa, B. Jono, atau E. Vina. Namun, karena pilihan yang tepat tidak ada dalam opsi, maka jawaban yang paling tepat adalah C. Roni, jika diasumsikan Roni tidak menjadi pengemudi.
+
+5. Referensi (source & halaman dari konteks)
+[Soal_SBMPTN_SAINTEK.pdf p.8]
+
+Sumber yang dipakai
+- Soal_SBMPTN_SAINTEK.pdf (hal. 8)
+- Soal_SBMPTN_SAINTEK.pdf (hal. 8)
+- Soal_SBMPTN_SAINTEK.pdf (hal. 7)
+- Soal_SBMPTN_SAINTEK.pdf (hal. 7)
+- Soal_SBMPTN_SAINTEK.pdf (hal. 7)
 ```
 
 #### Feature 2: "Generate Soal" (Generate Questions)
