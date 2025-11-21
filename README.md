@@ -126,17 +126,17 @@ The web interface has two main features:
 
 **Example input:**
 ```
-Apa yang dimaksud dengan fotosintesis?
+35. Peserta wisata yang dapat duduk di sebelah pengemudi adalah
+A. Lisa
+B. Jono
+C. Roni
+D. Susi
+E. Vina
 ```
 
 **Example output:**
 ```
-Jawaban:
-[Detailed answer from LLM based on retrieved context]
-
-Sumber:
-- Document: SAINTEK - MASUKUTBK September 2022.pdf (Page 5)
-- Document: Soal_SBMPTN_SAINTEK.pdf (Page 12)
+<img width="1776" height="847" alt="image" src="https://github.com/user-attachments/assets/9940d84e-4e0a-4717-a501-59da9d6fc6d7" />
 ```
 
 #### Feature 2: "Generate Soal" (Generate Questions)
